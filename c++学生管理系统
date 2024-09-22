@@ -1,0 +1,98 @@
+
+/*任务：做一个小型的学生管理系统，10个成员，每个成员包含学生姓名，id，成绩这三个基础数据
+      满足以下功能，基础性对话界面，有四个选项，分别是，添加学员，删除学员，查看学员信息，退出
+      添加学员就是进入二级对话框输入学员信息，删除查看学员等也是进入二级对话框，输入学生id
+       首先提示用户：“注册”或者“已有账号登录”点击注册就会弹出一个框        */
+
+#include <iostream>
+#include <vector>
+#include <string>
+
+using namespace std;
+class Student {
+public:
+    string name;
+    string student_id;
+    string grade;
+
+    Student(string n, string id, string g) : name(n), student_id(id), grade(g) {}
+};
+
+class StudentManagementSystem {
+private:
+    vector<Student> students;
+
+public:
+    void add_student() {
+        string name, student_id, grade;
+        cout << "请输入学生姓名: ";
+        cin >> name;
+        cout << "请输入学生ID: ";
+        cin >> student_id;
+        cout << "请输入学生成绩: ";
+        cin >> grade;
+        students.push_back(Student(name, student_id, grade));
+        cout << "学生添加成功！" << endl;
+    }
+
+    void delete_student() {
+        string student_id;
+        cout << "请输入要删除的学生ID: ";
+        cin >> student_id;
+        for (auto it = students.begin(); it != students.end(); ++it) {
+            if (it->student_id == student_id) {
+                students.erase(it);
+                cout << "学生删除成功！" << endl;
+                return;
+            }
+        }
+        cout << "未找到该学生ID。" << endl;
+    }
+
+    void view_student() {
+        string student_id;
+        cout << "请输入要查看的学生ID: ";
+        cin >> student_id;
+        for (const auto& student : students) {
+            if (student.student_id == student_id) {
+                cout << "姓名: " << student.name << ", ID: " << student.student_id << ", 成绩: " << student.grade << endl;
+                return;
+            }
+        }
+        cout << "未找到该学生ID。" << endl;
+    }
+
+    void run() {
+        while (true) {
+            cout << "\n学生管理系统" << endl;
+            cout << "1. 添加学员" << endl;
+            cout << "2. 删除学员" << endl;
+            cout << "3. 查看学员信息" << endl;
+            cout << "4. 退出" << endl;
+            cout << "请选择一个选项: ";
+            int choice;
+            cin >> choice;
+            switch (choice) {
+                case 1:
+                    add_student();
+                    break;
+                case 2:
+                    delete_student();
+                    break;
+                case 3:
+                    view_student();
+                    break;
+                case 4:
+                    cout << "退出系统。" << endl;
+                    return;
+                default:
+                    cout << "无效的选项，请重新选择。" << endl;
+            }
+        }
+    }
+};
+int main() {
+    StudentManagementSystem sms;
+    sms.run();
+    return 0;
+}
