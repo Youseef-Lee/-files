@@ -1,0 +1,146 @@
+[
+  {
+    "fish_type": "黑鱼",
+    "weight": 4.95,
+    "player": "小明",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "鲤鱼",
+    "weight": 4.52,
+    "player": "小张",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "黑鱼",
+    "weight": 3.56,
+    "player": "小明",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "鲤鱼",
+    "weight": 3.29,
+    "player": "小王",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "鲤鱼",
+    "weight": 2.69,
+    "player": "小王",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "黑鱼",
+    "weight": 2.25,
+    "player": "小张",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "草鱼",
+    "weight": 1.72,
+    "player": "小王",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "草鱼",
+    "weight": 1.71,
+    "player": "小明",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "草鱼",
+    "weight": 1.59,
+    "player": "小红",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "草鱼",
+    "weight": 1.47,
+    "player": "小王",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "草鱼",
+    "weight": 1.45,
+    "player": "小红",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "草鱼",
+    "weight": 1.43,
+    "player": "小红",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "草鱼",
+    "weight": 1.36,
+    "player": "小李",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "草鱼",
+    "weight": 1.17,
+    "player": "小王",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "草鱼",
+    "weight": 0.82,
+    "player": "小王",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "小鲫鱼",
+    "weight": 0.47,
+    "player": "小李",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "小鲫鱼",
+    "weight": 0.4,
+    "player": "小明",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "小鲫鱼",
+    "weight": 0.39,
+    "player": "小张",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "小鲫鱼",
+    "weight": 0.36,
+    "player": "小张",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "小鲫鱼",
+    "weight": 0.34,
+    "player": "小王",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "小鲫鱼",
+    "weight": 0.28,
+    "player": "小张",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "小鲫鱼",
+    "weight": 0.25,
+    "player": "小张",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "小鲫鱼",
+    "weight": 0.22,
+    "player": "小明",
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "fish_type": "小鲫鱼",
+    "weight": 0.14,
+    "player": "小红",
+    "date": "2025-07-27 15:58"
+  }
+]

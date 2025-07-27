@@ -1,0 +1,37 @@
+[
+  {
+    "name": "小明",
+    "score": 352,
+    "fish_count": 5,
+    "total_weight": 10.84,
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "name": "小王",
+    "score": 321,
+    "fish_count": 7,
+    "total_weight": 11.5,
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "name": "小张",
+    "score": 267,
+    "fish_count": 6,
+    "total_weight": 8.05,
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "name": "小红",
+    "score": 129,
+    "fish_count": 4,
+    "total_weight": 4.61,
+    "date": "2025-07-27 15:58"
+  },
+  {
+    "name": "小李",
+    "score": 52,
+    "fish_count": 2,
+    "total_weight": 1.83,
+    "date": "2025-07-27 15:58"
+  }
+]
